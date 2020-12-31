@@ -1,7 +1,7 @@
-url: https://www2.shippersedge.com/status  
+url: https://www2.shippersedge.com/status.cfm  
 status: down
 code: 404
-responseTime: 284
-lastUpdated: 2020-12-31T17:49:24.225Z
+responseTime: 273
+lastUpdated: 2020-12-31T18:07:28.514Z
 startTime: Thu Dec 31 2020 17:49:23 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
