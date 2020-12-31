@@ -1,11 +1,11 @@
-# Change these first
+l# Change these first
 owner: ShippersEdge # Your GitHub username
 repo: upptime # Your GitHub repository name
 
 # Add your sites here
 sites:
   - name: ShippersEdge TMS
-    url: https://www2.shippersedge.com/status.cfm
+    url: https://www2.shippersedge.com/health.cfm
   - name: ShippersEdge Carrier Portal
     url: https://carriers.shippersedge.com
 
