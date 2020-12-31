@@ -1,20 +1,20 @@
 [
   {
     "name": "ShippersEdge TMS",
-    "url": "https://www2.shippersedge.com/status.cfm",
+    "url": "https://www2.shippersedge.com/health.cfm",
     "icon": "https://favicons.githubusercontent.com/www2.shippersedge.com",
     "slug": "shippers-edge-tms",
-    "status": "down",
-    "uptime": "36.59%",
-    "uptimeDay": "36.59%",
-    "uptimeWeek": "36.59%",
-    "uptimeMonth": "36.59%",
-    "uptimeYear": "36.59%",
-    "time": 243,
-    "timeDay": 243,
-    "timeWeek": 243,
-    "timeMonth": 243,
-    "timeYear": 243,
+    "status": "up",
+    "uptime": "60.59%",
+    "uptimeDay": "60.59%",
+    "uptimeWeek": "60.59%",
+    "uptimeMonth": "60.59%",
+    "uptimeYear": "60.59%",
+    "time": 235,
+    "timeDay": 235,
+    "timeWeek": 235,
+    "timeMonth": 235,
+    "timeYear": 235,
     "dailyMinutesDown": {
       "2020-12-31": 12
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 200,
-    "timeDay": 200,
-    "timeWeek": 200,
-    "timeMonth": 200,
-    "timeYear": 200,
+    "time": 190,
+    "timeDay": 190,
+    "timeWeek": 190,
+    "timeMonth": 190,
+    "timeYear": 190,
     "dailyMinutesDown": {
       "2020-12-31": 35
     }
