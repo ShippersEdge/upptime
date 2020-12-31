@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 51,
-    "timeDay": 51,
-    "timeWeek": 51,
-    "timeMonth": 51,
-    "timeYear": 51,
+    "time": 56,
+    "timeDay": 56,
+    "timeWeek": 56,
+    "timeMonth": 56,
+    "timeYear": 56,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 100,
-    "timeDay": 100,
-    "timeWeek": 100,
-    "timeMonth": 100,
-    "timeYear": 100,
+    "time": 102,
+    "timeDay": 102,
+    "timeWeek": 102,
+    "timeMonth": 102,
+    "timeYear": 102,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 476,
-    "timeDay": 476,
-    "timeWeek": 476,
-    "timeMonth": 476,
-    "timeYear": 476,
+    "time": 445,
+    "timeDay": 445,
+    "timeWeek": 445,
+    "timeMonth": 445,
+    "timeYear": 445,
     "dailyMinutesDown": {}
   },
   {
@@ -59,18 +59,18 @@
     "icon": "https://favicons.githubusercontent.com/thissitedoesnotexist.com",
     "slug": "broken-site",
     "status": "down",
-    "uptime": "5.35%",
-    "uptimeDay": "5.35%",
-    "uptimeWeek": "5.35%",
-    "uptimeMonth": "5.35%",
-    "uptimeYear": "5.35%",
+    "uptime": "0.05%",
+    "uptimeDay": "0.05%",
+    "uptimeWeek": "0.05%",
+    "uptimeMonth": "0.05%",
+    "uptimeYear": "0.05%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2020-12-31": 0
+      "2020-12-31": 4
     }
   },
   {
@@ -79,18 +79,18 @@
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "secret-site",
     "status": "down",
-    "uptime": "8.54%",
-    "uptimeDay": "8.54%",
-    "uptimeWeek": "8.54%",
-    "uptimeMonth": "8.54%",
-    "uptimeYear": "8.54%",
+    "uptime": "0.03%",
+    "uptimeDay": "0.03%",
+    "uptimeWeek": "0.03%",
+    "uptimeMonth": "0.03%",
+    "uptimeYear": "0.03%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2020-12-31": 0
+      "2020-12-31": 4
     }
   }
 ]
