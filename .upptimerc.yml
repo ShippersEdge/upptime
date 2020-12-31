@@ -5,9 +5,9 @@ repo: upptime # Your GitHub repository name
 # Add your sites here
 sites:
   - name: ShippersEdge TMS
-    url: https://www2.shippersedge.com/status
+    url: https://www2.shippersedge.com/status.cfm
   - name: ShippersEdge Carrier Portal
-    url: https://carrierportal.shippersedge.com
+    url: https://carriers.shippersedge.com
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
