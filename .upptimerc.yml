@@ -8,6 +8,15 @@ sites:
     url: https://www2.shippersedge.com/health.cfm
   - name: ShippersEdge Carrier Portal
     url: https://carriers.shippersedge.com
+  - name: ShippersEdge Customer Portal
+    url: https://customers.shippersedge.com
+  - name: ShippersEdge Customer Portal
+    url: https://customers.shippersedge.com
+  - name: ShippersEdge Shipment API
+    url: https://api.shippersedge.com/v4/shipment/98185336
+    headers:
+      - "x-api-key: vdhy8wwjUJrwhxFpfuECTiAW"
+      - "Content-Type: application/json"
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
