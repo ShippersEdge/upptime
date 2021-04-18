@@ -1,7 +1,7 @@
 url: https://www2.shippersedge.com/health.cfm
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2021-04-18T02:32:27.656Z
+status: up
+code: 200
+responseTime: 440
+lastUpdated: 2021-04-18T02:49:42.242Z
 startTime: Thu Dec 31 2020 17:49:23 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
