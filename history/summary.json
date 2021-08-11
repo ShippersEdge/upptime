@@ -4,7 +4,7 @@
     "url": "https://www2.shippersedge.com/health.cfm",
     "icon": "https://favicons.githubusercontent.com/www2.shippersedge.com",
     "slug": "shippers-edge-tms",
-    "status": "up",
+    "status": "down",
     "uptime": "99.77%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.79%",
@@ -16,6 +16,7 @@
     "timeMonth": 1278,
     "timeYear": 547,
     "dailyMinutesDown": {
+      "2021-08-11": 0,
       "2021-08-08": 6,
       "2021-08-07": 16,
       "2021-03-14": 90,
