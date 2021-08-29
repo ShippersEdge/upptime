@@ -68,9 +68,9 @@
     "url": "https://api.shippersedge.com/v4/shipment/98185336",
     "icon": "https://favicons.githubusercontent.com/api.shippersedge.com",
     "slug": "shippers-edge-shipment-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -79,6 +79,8 @@
     "timeWeek": 287,
     "timeMonth": 295,
     "timeYear": 317,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-08-29": 0
+    }
   }
 ]
