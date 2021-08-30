@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.79%",
-    "time": 527,
-    "timeDay": 176,
-    "timeWeek": 235,
+    "time": 526,
+    "timeDay": 241,
+    "timeWeek": 234,
     "timeMonth": 1245,
-    "timeYear": 527,
+    "timeYear": 526,
     "dailyMinutesDown": {
       "2021-08-08": 6,
       "2021-08-07": 16,
@@ -37,8 +37,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 242,
-    "timeDay": 187,
-    "timeWeek": 265,
+    "timeDay": 280,
+    "timeWeek": 263,
     "timeMonth": 258,
     "timeYear": 242,
     "dailyMinutesDown": {}
@@ -55,9 +55,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 236,
-    "timeDay": 167,
-    "timeWeek": 255,
-    "timeMonth": 258,
+    "timeDay": 269,
+    "timeWeek": 254,
+    "timeMonth": 257,
     "timeYear": 236,
     "dailyMinutesDown": {
       "2021-03-17": 30
@@ -70,17 +70,15 @@
     "slug": "shippers-edge-shipment-api",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.31%",
-    "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 317,
-    "timeDay": 381,
-    "timeWeek": 311,
+    "timeDay": 383,
+    "timeWeek": 296,
     "timeMonth": 300,
     "timeYear": 317,
-    "dailyMinutesDown": {
-      "2021-08-29": 10
-    }
+    "dailyMinutesDown": {}
   }
 ]
