@@ -31,9 +31,9 @@
     "url": "https://carriers.shippersedge.com",
     "icon": "https://favicons.githubusercontent.com/carriers.shippersedge.com",
     "slug": "shippers-edge-carrier-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -42,7 +42,9 @@
     "timeWeek": 292,
     "timeMonth": 268,
     "timeYear": 245,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-11-08": 0
+    }
   },
   {
     "name": "ShippersEdge Customer Portal",
