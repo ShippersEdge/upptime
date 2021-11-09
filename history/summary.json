@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.83%",
     "time": 520,
-    "timeDay": 314,
-    "timeWeek": 447,
-    "timeMonth": 571,
+    "timeDay": 221,
+    "timeWeek": 248,
+    "timeMonth": 569,
     "timeYear": 520,
     "dailyMinutesDown": {
       "2021-10-04": 16,
@@ -33,18 +33,16 @@
     "slug": "shippers-edge-carrier-portal",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.53%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 245,
-    "timeDay": 328,
-    "timeWeek": 298,
-    "timeMonth": 270,
+    "timeDay": 275,
+    "timeWeek": 276,
+    "timeMonth": 268,
     "timeYear": 245,
-    "dailyMinutesDown": {
-      "2021-11-08": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "ShippersEdge Customer Portal",
@@ -58,9 +56,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 240,
-    "timeDay": 339,
-    "timeWeek": 296,
-    "timeMonth": 265,
+    "timeDay": 179,
+    "timeWeek": 265,
+    "timeMonth": 261,
     "timeYear": 240,
     "dailyMinutesDown": {
       "2021-03-17": 30
@@ -77,11 +75,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 307,
-    "timeDay": 314,
-    "timeWeek": 282,
-    "timeMonth": 270,
-    "timeYear": 307,
+    "time": 306,
+    "timeDay": 211,
+    "timeWeek": 267,
+    "timeMonth": 267,
+    "timeYear": 306,
     "dailyMinutesDown": {}
   }
 ]
