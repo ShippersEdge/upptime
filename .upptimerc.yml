@@ -11,14 +11,14 @@ sites:
   - name: ShippersEdge Customer Portal
     url: https://customers.shippersedge.com
   - name: ShippersEdge Shipment API
-    url: https://api.shippersedge.com/v4/shipment/98185336
+    url: https://api.shippersedge.com/v4/shipment/404482360
     headers:
-      - "x-api-key: vdhy8wwjUJrwhxFpfuECTiAW"
+      - "x-api-key: xboj0iJQBpckVChouyUg8l86VR4ngEoq2bSbaAZKO1dc7DIhFxy0AliDGAtQEx2WG"
       - "Content-Type: application/json"
   - name: ShippersEdge Rates API
     url: https://api.shippersedge.com/v2/rates/shipment/850941
     headers:
-      - "x-api-key: vdhy8wwjUJrwhxFpfuECTiAW"
+      - "x-api-key: xboj0iJQBpckVChouyUg8l86VR4ngEoq2bSbaAZKO1dc7DIhFxy0AliDGAtQEx2WG"
       - "Content-Type: application/json"
 
 status-website:
