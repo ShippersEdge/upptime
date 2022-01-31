@@ -88,18 +88,19 @@
     "url": "https://api.shippersedge.com/v2/rates/shipment/850941",
     "icon": "https://favicons.githubusercontent.com/api.shippersedge.com",
     "slug": "shippers-edge-rates-api",
-    "status": "up",
-    "uptime": "97.97%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "98.05%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "97.97%",
-    "uptimeYear": "97.97%",
+    "uptimeMonth": "98.05%",
+    "uptimeYear": "98.05%",
     "time": 4534,
     "timeDay": 4946,
     "timeWeek": 3901,
     "timeMonth": 4534,
     "timeYear": 4534,
     "dailyMinutesDown": {
+      "2022-01-31": 0,
       "2022-01-20": 648
     }
   }
