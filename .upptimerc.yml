@@ -16,7 +16,7 @@ sites:
       - "x-api-key: xboj0iJQBpckVChouyUg8l86VR4ngEoq2bSbaAZKO1dc7DIhFxy0AliDGAtQEx2WG"
       - "Content-Type: application/json"
   - name: ShippersEdge Rates API
-    url: https://api.shippersedge.com/v2/rates/shipment/850941
+    url: https://api.shippersedge.com/v2/rates/shipment/29491477
     headers:
       - "x-api-key: xboj0iJQBpckVChouyUg8l86VR4ngEoq2bSbaAZKO1dc7DIhFxy0AliDGAtQEx2WG"
       - "Content-Type: application/json"
