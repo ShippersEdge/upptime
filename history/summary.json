@@ -30,11 +30,11 @@
     "url": "https://carriers.shippersedge.com",
     "icon": "https://favicons.githubusercontent.com/carriers.shippersedge.com",
     "slug": "shippers-edge-carrier-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "99.59%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 286,
     "timeDay": 5086,
@@ -42,7 +42,7 @@
     "timeMonth": 552,
     "timeYear": 304,
     "dailyMinutesDown": {
-      "2022-05-27": 6
+      "2022-05-27": 1
     }
   },
   {
@@ -51,10 +51,10 @@
     "icon": "https://favicons.githubusercontent.com/customers.shippersedge.com",
     "slug": "shippers-edge-customer-portal",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.59%",
-    "uptimeWeek": "99.94%",
-    "uptimeMonth": "99.99%",
+    "uptime": "99.99%",
+    "uptimeDay": "99.13%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
     "time": 253,
     "timeDay": 372,
@@ -62,7 +62,7 @@
     "timeMonth": 256,
     "timeYear": 267,
     "dailyMinutesDown": {
-      "2022-05-27": 6
+      "2022-05-27": 13
     }
   },
   {
@@ -94,7 +94,7 @@
     "uptime": "91.77%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "64.56%",
+    "uptimeMonth": "64.55%",
     "uptimeYear": "91.77%",
     "time": 5930,
     "timeDay": 73,
@@ -102,7 +102,7 @@
     "timeMonth": 4441,
     "timeYear": 5930,
     "dailyMinutesDown": {
-      "2022-05-27": 890,
+      "2022-05-27": 896,
       "2022-05-26": 1440,
       "2022-05-25": 1440,
       "2022-05-24": 1440,
