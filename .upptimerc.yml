@@ -15,6 +15,12 @@ sites:
     headers:
       - "x-api-key: xboj0iJQBpckVChouyUg8l86VR4ngEoq2bSbaAZKO1dc7DIhFxy0AliDGAtQEx2WG"
       - "Content-Type: application/json"
+  - name: ShippersEdge Rating API
+    url: https://api.shippersedge.com/v2/rates/shipment/365186086
+    maxResponseTime: 70000
+    headers:
+      - "x-api-key: xboj0iJQBpckVChouyUg8l86VR4ngEoq2bSbaAZKO1dc7DIhFxy0AliDGAtQEx2WG"
+      - "Content-Type: application/json"
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
