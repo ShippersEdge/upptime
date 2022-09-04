@@ -11,10 +11,10 @@
     "uptimeMonth": "99.93%",
     "uptimeYear": "99.73%",
     "time": 419,
-    "timeDay": 221,
-    "timeWeek": 219,
+    "timeDay": 235,
+    "timeWeek": 224,
     "timeMonth": 260,
-    "timeYear": 375,
+    "timeYear": 374,
     "dailyMinutesDown": {
       "2022-08-21": 33,
       "2022-07-17": 363,
@@ -40,10 +40,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 300,
-    "timeDay": 164,
-    "timeWeek": 166,
-    "timeMonth": 210,
-    "timeYear": 312,
+    "timeDay": 175,
+    "timeWeek": 170,
+    "timeMonth": 209,
+    "timeYear": 311,
     "dailyMinutesDown": {
       "2022-08-01": 15,
       "2022-06-21": 37,
@@ -62,9 +62,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 270,
-    "timeDay": 192,
-    "timeWeek": 167,
-    "timeMonth": 204,
+    "timeDay": 185,
+    "timeWeek": 168,
+    "timeMonth": 203,
     "timeYear": 274,
     "dailyMinutesDown": {
       "2022-06-21": 28,
@@ -83,9 +83,9 @@
     "uptimeMonth": "99.75%",
     "uptimeYear": "99.97%",
     "time": 334,
-    "timeDay": 187,
-    "timeWeek": 214,
-    "timeMonth": 802,
+    "timeDay": 200,
+    "timeWeek": 216,
+    "timeMonth": 787,
     "timeYear": 342,
     "dailyMinutesDown": {
       "2022-08-15": 88,
@@ -93,5 +93,23 @@
       "2022-06-03": 26,
       "2022-03-07": 23
     }
+  },
+  {
+    "name": "ShippersEdge Rating API",
+    "url": "https://api.shippersedge.com/v2/rates/shipment/365186086",
+    "icon": "https://favicons.githubusercontent.com/api.shippersedge.com",
+    "slug": "shippers-edge-rating-api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 15498,
+    "timeDay": 15498,
+    "timeWeek": 15498,
+    "timeMonth": 15498,
+    "timeYear": 15498,
+    "dailyMinutesDown": {}
   }
 ]
