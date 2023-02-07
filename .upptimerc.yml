@@ -10,8 +10,6 @@ sites:
     url: https://carriers.shippersedge.com
   - name: ShippersEdge Customer Portal
     url: https://customers.shippersedge.com
-  - name: ShippersEdge Supplier Portal
-    url: https://routing.shippersedge.com
   - name: ShippersEdge Dock Scheduler
     url: https://schedule.shippersedge.com
 
