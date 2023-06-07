@@ -55,10 +55,10 @@
     "url": "https://customers.shippersedge.com",
     "icon": "https://icons.duckduckgo.com/ip3/customers.shippersedge.com.ico",
     "slug": "shippers-edge-customer-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
     "time": 221,
@@ -67,6 +67,7 @@
     "timeMonth": 182,
     "timeYear": 209,
     "dailyMinutesDown": {
+      "2023-06-07": 1,
       "2023-01-25": 34,
       "2022-09-18": 46,
       "2022-06-21": 28
@@ -77,9 +78,9 @@
     "url": "https://schedule.shippersedge.com",
     "icon": "https://icons.duckduckgo.com/ip3/schedule.shippersedge.com.ico",
     "slug": "shippers-edge-dock-scheduler",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -88,6 +89,8 @@
     "timeWeek": 177,
     "timeMonth": 168,
     "timeYear": 174,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-06-07": 0
+    }
   }
 ]
