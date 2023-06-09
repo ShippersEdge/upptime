@@ -55,9 +55,9 @@
     "url": "https://customers.shippersedge.com",
     "icon": "https://icons.duckduckgo.com/ip3/customers.shippersedge.com.ico",
     "slug": "shippers-edge-customer-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
@@ -67,6 +67,7 @@
     "timeMonth": 181,
     "timeYear": 208,
     "dailyMinutesDown": {
+      "2023-06-09": 0,
       "2023-01-25": 34,
       "2022-09-18": 46,
       "2022-06-21": 28
