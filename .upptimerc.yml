@@ -12,7 +12,7 @@ sites:
     url: https://customers.shippersedge.com
   - name: ShippersEdge Dock Scheduler
     url: https://schedule.shippersedge.com
-  - name: ShippersEdge Supplier Scheduler
+  - name: ShippersEdge Supplier Portal
     url: https://routing.shippersedge.com
 
 status-website:
