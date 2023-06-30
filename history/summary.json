@@ -1,19 +1,19 @@
 [
   {
     "name": "ShippersEdge TMS",
-    "url": "https://www2.shippersedge.com/health.cfm",
-    "icon": "https://icons.duckduckgo.com/ip3/www2.shippersedge.com.ico",
+    "url": "https://app.shippersedge.com/health.cfm",
+    "icon": "https://icons.duckduckgo.com/ip3/app.shippersedge.com.ico",
     "slug": "shippers-edge-tms",
-    "status": "down",
+    "status": "up",
     "uptime": "99.83%",
     "uptimeDay": "98.49%",
     "uptimeWeek": "99.78%",
     "uptimeMonth": "99.95%",
     "uptimeYear": "99.90%",
     "time": 407,
-    "timeDay": 196,
-    "timeWeek": 371,
-    "timeMonth": 257,
+    "timeDay": 201,
+    "timeWeek": 351,
+    "timeMonth": 256,
     "timeYear": 446,
     "dailyMinutesDown": {
       "2023-06-30": 22,
@@ -87,6 +87,24 @@
     "timeWeek": 184,
     "timeMonth": 169,
     "timeYear": 173,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "ShippersEdge Supplier Scheduler",
+    "url": "https://routing.shippersedge.com",
+    "icon": "https://icons.duckduckgo.com/ip3/routing.shippersedge.com.ico",
+    "slug": "shippers-edge-supplier-scheduler",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
     "dailyMinutesDown": {}
   }
 ]
