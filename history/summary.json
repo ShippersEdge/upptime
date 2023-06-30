@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.shippersedge.com.ico",
     "slug": "shippers-edge-tms",
     "status": "up",
-    "uptime": "99.83%",
+    "uptime": "99.84%",
     "uptimeDay": "98.49%",
     "uptimeWeek": "99.78%",
     "uptimeMonth": "99.95%",
-    "uptimeYear": "99.90%",
+    "uptimeYear": "99.93%",
     "time": 407,
     "timeDay": 240,
     "timeWeek": 336,
@@ -20,12 +20,10 @@
       "2023-04-19": 60,
       "2023-04-18": 60,
       "2023-03-13": 29,
-      "2023-01-11": 54,
       "2022-10-16": 67,
       "2022-09-18": 39,
       "2022-08-21": 33,
-      "2022-07-17": 75,
-      "2022-07-03": 71
+      "2022-07-17": 75
     }
   },
   {
@@ -49,6 +47,24 @@
       "2022-09-18": 46,
       "2022-08-01": 15
     }
+  },
+  {
+    "name": "ShippersEdge Supplier Portal",
+    "url": "https://routing.shippersedge.com",
+    "icon": "https://icons.duckduckgo.com/ip3/routing.shippersedge.com.ico",
+    "slug": "shippers-edge-supplier-portal",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 320,
+    "timeDay": 326,
+    "timeWeek": 326,
+    "timeMonth": 326,
+    "timeYear": 320,
+    "dailyMinutesDown": {}
   },
   {
     "name": "ShippersEdge Customer Portal",
@@ -87,24 +103,6 @@
     "timeWeek": 186,
     "timeMonth": 170,
     "timeYear": 174,
-    "dailyMinutesDown": {}
-  },
-  {
-    "name": "ShippersEdge Supplier Portal",
-    "url": "https://routing.shippersedge.com",
-    "icon": "https://icons.duckduckgo.com/ip3/routing.shippersedge.com.ico",
-    "slug": "shippers-edge-supplier-portal",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 320,
-    "timeDay": 326,
-    "timeWeek": 326,
-    "timeMonth": 326,
-    "timeYear": 320,
     "dailyMinutesDown": {}
   }
 ]
