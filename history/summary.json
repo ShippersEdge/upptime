@@ -6,9 +6,9 @@
     "slug": "shippers-edge-tms",
     "status": "down",
     "uptime": "99.85%",
-    "uptimeDay": "99.83%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.99%",
+    "uptimeDay": "99.26%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "99.94%",
     "time": 411,
     "timeDay": 220,
@@ -16,7 +16,7 @@
     "timeMonth": 297,
     "timeYear": 449,
     "dailyMinutesDown": {
-      "2023-08-08": 2,
+      "2023-08-08": 11,
       "2023-06-30": 22,
       "2023-04-19": 60,
       "2023-04-18": 60,
@@ -33,9 +33,9 @@
     "slug": "shippers-edge-carrier-portal",
     "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "99.22%",
-    "uptimeWeek": "99.89%",
-    "uptimeMonth": "99.97%",
+    "uptimeDay": "98.65%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "99.98%",
     "time": 245,
     "timeDay": 180,
@@ -43,7 +43,7 @@
     "timeMonth": 183,
     "timeYear": 193,
     "dailyMinutesDown": {
-      "2023-08-08": 11,
+      "2023-08-08": 19,
       "2023-01-25": 34,
       "2022-09-18": 46
     }
@@ -53,19 +53,19 @@
     "url": "https://routing.shippersedge.com",
     "icon": "https://icons.duckduckgo.com/ip3/routing.shippersedge.com.ico",
     "slug": "shippers-edge-supplier-portal",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.28%",
-    "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 228,
-    "timeDay": 189,
-    "timeWeek": 198,
-    "timeMonth": 223,
-    "timeYear": 228,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.72%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.97%",
+    "time": 226,
+    "timeDay": 175,
+    "timeWeek": 193,
+    "timeMonth": 221,
+    "timeYear": 226,
     "dailyMinutesDown": {
-      "2023-08-08": 10
+      "2023-08-08": 18
     }
   },
   {
@@ -94,19 +94,19 @@
     "url": "https://schedule.shippersedge.com",
     "icon": "https://icons.duckduckgo.com/ip3/schedule.shippersedge.com.ico",
     "slug": "shippers-edge-dock-scheduler",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.36%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "98.80%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.99%",
     "time": 173,
-    "timeDay": 176,
-    "timeWeek": 161,
-    "timeMonth": 175,
+    "timeDay": 157,
+    "timeWeek": 156,
+    "timeMonth": 173,
     "timeYear": 173,
     "dailyMinutesDown": {
-      "2023-08-08": 9
+      "2023-08-08": 17
     }
   }
 ]
