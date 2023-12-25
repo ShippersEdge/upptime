@@ -1,7 +1,7 @@
 url: https://routing.shippersedge.com
-status: down
-code: 503
-responseTime: 103
-lastUpdated: 2023-12-25T08:38:03.508Z
+status: up
+code: 200
+responseTime: 333
+lastUpdated: 2023-12-25T08:44:12.662Z
 startTime: 2023-06-30T21:07:48.000Z
 generator: Upptime <https://github.com/upptime/upptime>
