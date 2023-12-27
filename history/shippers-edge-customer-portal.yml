@@ -1,7 +1,7 @@
 url: https://customers.shippersedge.com
-status: down
-code: 503
-responseTime: 133
-lastUpdated: 2023-12-27T05:55:05.409Z
+status: up
+code: 200
+responseTime: 108
+lastUpdated: 2023-12-27T06:02:02.022Z
 startTime: 2021-01-06T15:53:57.000Z
 generator: Upptime <https://github.com/upptime/upptime>
