@@ -4,7 +4,7 @@
     "url": "https://app.shippersedge.com/health.cfm",
     "icon": "https://icons.duckduckgo.com/ip3/app.shippersedge.com.ico",
     "slug": "shippers-edge-tms",
-    "status": "up",
+    "status": "down",
     "uptime": "99.84%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -16,6 +16,7 @@
     "timeMonth": 752,
     "timeYear": 535,
     "dailyMinutesDown": {
+      "2024-01-16": 0,
       "2023-10-14": 289,
       "2023-09-23": 153,
       "2023-08-08": 15,
