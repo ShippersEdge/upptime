@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.79%",
-    "time": 575,
-    "timeDay": 2238,
-    "timeWeek": 521,
-    "timeMonth": 1103,
-    "timeYear": 662,
+    "time": 578,
+    "timeDay": 2025,
+    "timeWeek": 764,
+    "timeMonth": 1159,
+    "timeYear": 667,
     "dailyMinutesDown": {
       "2024-09-15": 37,
       "2024-08-19": 24,
@@ -25,8 +25,7 @@
       "2024-03-22": 47,
       "2024-02-26": 35,
       "2024-01-21": 356,
-      "2024-01-16": 18,
-      "2023-10-14": 289
+      "2024-01-16": 18
     }
   },
   {
@@ -40,14 +39,12 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
-    "time": 164,
-    "timeDay": 106,
-    "timeWeek": 163,
-    "timeMonth": 193,
+    "time": 165,
+    "timeDay": 260,
+    "timeWeek": 166,
+    "timeMonth": 197,
     "timeYear": 161,
-    "dailyMinutesDown": {
-      "2023-10-14": 308
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "ShippersEdge Supplier Portal",
@@ -61,13 +58,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
     "time": 206,
-    "timeDay": 161,
-    "timeWeek": 203,
-    "timeMonth": 226,
-    "timeYear": 202,
-    "dailyMinutesDown": {
-      "2023-10-14": 314
-    }
+    "timeDay": 263,
+    "timeWeek": 205,
+    "timeMonth": 229,
+    "timeYear": 203,
+    "dailyMinutesDown": {}
   },
   {
     "name": "ShippersEdge Customer Portal",
@@ -81,13 +76,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
     "time": 170,
-    "timeDay": 87,
-    "timeWeek": 144,
-    "timeMonth": 170,
+    "timeDay": 255,
+    "timeWeek": 148,
+    "timeMonth": 176,
     "timeYear": 170,
-    "dailyMinutesDown": {
-      "2023-10-14": 308
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "ShippersEdge Dock Scheduler",
@@ -101,12 +94,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
     "time": 172,
-    "timeDay": 83,
-    "timeWeek": 152,
-    "timeMonth": 168,
+    "timeDay": 270,
+    "timeWeek": 161,
+    "timeMonth": 174,
     "timeYear": 174,
-    "dailyMinutesDown": {
-      "2023-10-14": 314
-    }
+    "dailyMinutesDown": {}
   }
 ]
