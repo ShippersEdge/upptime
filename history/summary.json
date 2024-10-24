@@ -33,19 +33,19 @@
     "url": "https://carriers.shippersedge.com",
     "icon": "https://icons.duckduckgo.com/ip3/carriers.shippersedge.com.ico",
     "slug": "shippers-edge-carrier-portal",
-    "status": "down",
+    "status": "up",
     "uptime": "99.97%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.43%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 165,
-    "timeDay": 132,
-    "timeWeek": 193,
-    "timeMonth": 199,
+    "timeDay": 190,
+    "timeWeek": 200,
+    "timeMonth": 200,
     "timeYear": 163,
     "dailyMinutesDown": {
-      "2024-10-24": 0
+      "2024-10-24": 8
     }
   },
   {
