@@ -33,18 +33,20 @@
     "url": "https://carriers.shippersedge.com",
     "icon": "https://icons.duckduckgo.com/ip3/carriers.shippersedge.com.ico",
     "slug": "shippers-edge-carrier-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 165,
-    "timeDay": 142,
-    "timeWeek": 160,
-    "timeMonth": 185,
+    "timeDay": 199,
+    "timeWeek": 172,
+    "timeMonth": 187,
     "timeYear": 163,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-11-08": 0
+    }
   },
   {
     "name": "ShippersEdge Supplier Portal",
@@ -70,19 +72,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/customers.shippersedge.com.ico",
     "slug": "shippers-edge-customer-portal",
     "status": "up",
-    "uptime": "99.97%",
-    "uptimeDay": "99.42%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.98%",
+    "uptime": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 169,
     "timeDay": 119,
     "timeWeek": 148,
     "timeMonth": 169,
     "timeYear": 152,
-    "dailyMinutesDown": {
-      "2024-11-08": 8
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "ShippersEdge Dock Scheduler",
