@@ -69,18 +69,20 @@
     "url": "https://customers.shippersedge.com",
     "icon": "https://icons.duckduckgo.com/ip3/customers.shippersedge.com.ico",
     "slug": "shippers-edge-customer-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 170,
-    "timeDay": 92,
-    "timeWeek": 152,
-    "timeMonth": 171,
+    "timeDay": 111,
+    "timeWeek": 149,
+    "timeMonth": 170,
     "timeYear": 152,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-11-08": 0
+    }
   },
   {
     "name": "ShippersEdge Dock Scheduler",
