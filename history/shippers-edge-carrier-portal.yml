@@ -1,7 +1,7 @@
 url: https://carriers.shippersedge.com
-status: down
-code: 503
-responseTime: 255
-lastUpdated: 2024-11-08T07:12:01.053Z
+status: up
+code: 200
+responseTime: 149
+lastUpdated: 2024-11-08T07:21:23.035Z
 startTime: 2020-12-31T17:49:27.000Z
 generator: Upptime <https://github.com/upptime/upptime>
