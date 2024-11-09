@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.85%",
     "time": 581,
-    "timeDay": 209,
-    "timeWeek": 244,
-    "timeMonth": 418,
+    "timeDay": 248,
+    "timeWeek": 230,
+    "timeMonth": 420,
     "timeYear": 644,
     "dailyMinutesDown": {
       "2024-09-15": 37,
@@ -34,19 +34,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/carriers.shippersedge.com.ico",
     "slug": "shippers-edge-carrier-portal",
     "status": "up",
-    "uptime": "99.97%",
-    "uptimeDay": "99.35%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.98%",
+    "uptime": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 165,
-    "timeDay": 182,
-    "timeWeek": 169,
-    "timeMonth": 186,
+    "timeDay": 185,
+    "timeWeek": 165,
+    "timeMonth": 184,
     "timeYear": 163,
-    "dailyMinutesDown": {
-      "2024-11-08": 9
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "ShippersEdge Supplier Portal",
@@ -60,9 +58,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 207,
-    "timeDay": 160,
-    "timeWeek": 179,
-    "timeMonth": 228,
+    "timeDay": 182,
+    "timeWeek": 164,
+    "timeMonth": 227,
     "timeYear": 205,
     "dailyMinutesDown": {}
   },
@@ -78,10 +76,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 169,
-    "timeDay": 119,
-    "timeWeek": 148,
+    "timeDay": 138,
+    "timeWeek": 136,
     "timeMonth": 169,
-    "timeYear": 152,
+    "timeYear": 151,
     "dailyMinutesDown": {}
   },
   {
@@ -96,9 +94,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 173,
-    "timeDay": 178,
-    "timeWeek": 161,
-    "timeMonth": 182,
+    "timeDay": 157,
+    "timeWeek": 155,
+    "timeMonth": 181,
     "timeYear": 176,
     "dailyMinutesDown": {}
   }
