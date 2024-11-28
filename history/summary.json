@@ -51,18 +51,20 @@
     "url": "https://routing.shippersedge.com",
     "icon": "https://icons.duckduckgo.com/ip3/routing.shippersedge.com.ico",
     "slug": "shippers-edge-supplier-portal",
-    "status": "up",
+    "status": "down",
     "uptime": "99.96%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 208,
-    "timeDay": 262,
-    "timeWeek": 247,
-    "timeMonth": 212,
+    "timeDay": 271,
+    "timeWeek": 251,
+    "timeMonth": 214,
     "timeYear": 206,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-11-28": 0
+    }
   },
   {
     "name": "ShippersEdge Customer Portal",
