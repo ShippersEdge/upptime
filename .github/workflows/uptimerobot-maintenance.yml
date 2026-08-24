@@ -1,0 +1,69 @@
+name: UptimeRobot Maintenance Window
+
+# Manually triggered. Creates an UptimeRobot maintenance window (one-off or
+# recurring) so planned/expected downtime doesn't count against uptime %.
+# See scripts/uptimerobot-maintenance.mjs and the README for flag details.
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Maintenance window name (shown in the UptimeRobot dashboard)"
+        required: true
+        type: string
+      interval:
+        description: "Recurrence"
+        required: true
+        type: choice
+        default: once
+        options:
+          - once
+          - daily
+          - weekly
+          - monthly
+      date:
+        description: "Start date, YYYY-MM-DD (required for 'once' only — ignored/must be blank for recurring intervals)"
+        required: false
+        type: string
+      time:
+        description: "Local wall-clock time, HH:mm:ss (account timezone: Central US)"
+        required: true
+        type: string
+      duration:
+        description: "Duration in minutes"
+        required: true
+        type: string
+      days:
+        description: "Required for weekly/monthly: comma-separated day name(s), e.g. friday or tuesday,thursday"
+        required: false
+        type: string
+      monitors:
+        description: "'all' or comma-separated (partial) monitor names, e.g. TMS,Dock Scheduler"
+        required: true
+        default: all
+        type: string
+
+jobs:
+  create-window:
+    name: Create maintenance window
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Create maintenance window
+        run: |
+          ARGS=(--name "${{ inputs.name }}" --interval "${{ inputs.interval }}" --time "${{ inputs.time }}" --duration "${{ inputs.duration }}" --monitors "${{ inputs.monitors }}")
+          if [ -n "${{ inputs.date }}" ]; then
+            ARGS+=(--date "${{ inputs.date }}")
+          fi
+          if [ -n "${{ inputs.days }}" ]; then
+            ARGS+=(--days "${{ inputs.days }}")
+          fi
+          node scripts/uptimerobot-maintenance.mjs "${ARGS[@]}"
+        env:
+          UPTIMEROBOT_API_KEY: ${{ secrets.UPTIMEROBOT_API_KEY }}

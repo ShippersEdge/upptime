@@ -1,0 +1,26 @@
+name: UptimeRobot Setup
+
+# Manually triggered. Creates/verifies the 5 service monitors and the public
+# status page on UptimeRobot. Idempotent (see scripts/uptimerobot-setup.mjs)
+# so it's safe to re-run any time — e.g. after adding a new service to
+# .upptimerc.yml-style config, or just to confirm nothing drifted.
+on:
+  workflow_dispatch: {}
+
+jobs:
+  setup:
+    name: Run UptimeRobot setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run setup script
+        run: node scripts/uptimerobot-setup.mjs
+        env:
+          UPTIMEROBOT_API_KEY: ${{ secrets.UPTIMEROBOT_API_KEY }}
