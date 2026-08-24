@@ -56,7 +56,7 @@ async function main() {
 
   if (domain) {
     console.log(`Set custom domain on PSP ${PSP_ID}: ${psp.customDomain}`);
-    console.log("Make sure the CNAME record exists: status.shippersedge.com -> stats.uptimerobot.com");
+    console.log("Make sure the CNAME record exists: uptime.shippersedge.com -> stats.uptimerobot.com");
     console.log("SSL provisions automatically once DNS has propagated.");
   } else {
     console.log(`Cleared custom domain on PSP ${PSP_ID}.`);

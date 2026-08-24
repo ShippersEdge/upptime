@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       domain:
-        description: "Custom domain to set (e.g. status.shippersedge.com). Leave blank to clear the current custom domain."
+        description: "Custom domain to set (e.g. uptime.shippersedge.com). Leave blank to clear the current custom domain."
         required: false
         type: string
 

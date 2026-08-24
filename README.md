@@ -132,7 +132,7 @@ All three read the API key from the `UPTIMEROBOT_API_KEY` repository secret (Set
 
 ## API keys
 
-- `UPTIMEROBOT_API_KEY` — full access (read/write). Needed for both scripts, whether run locally (as an exported env var) or via the GitHub Actions workflows above (as the `UPTIMEROBOT_API_KEY` repo secret).
+- `UPTIMEROBOT_API_KEY` — full access (read/write). Needed for all three scripts, whether run locally (as an exported env var) or via the GitHub Actions workflows above (as the `UPTIMEROBOT_API_KEY` repo secret).
 - `UPTIMEROBOT_API_KEY_READONLY` — read-only, for anything that only needs to check status. Kept locally only; nothing in this repo currently uses it via CI.
 
 Don't commit key values to this repo or paste them into chat/tickets — export locally or store as a GitHub Actions secret only.

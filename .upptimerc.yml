@@ -1,3 +1,9 @@
+# NOTE: This file is no longer read by anything. It configured the Upptime
+# GitHub Actions workflows, which have been removed — monitoring and the
+# status page now run on UptimeRobot (see README.md and scripts/). Kept only
+# as a historical record of the original site list/config; edits here have
+# no effect on the live status page.
+
 # Change these first
 owner: ShippersEdge # Your GitHub username
 repo: upptime # Your GitHub repository name
@@ -18,7 +24,7 @@ sites:
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
-  cname: status.shippersedge.com
+  cname: uptime.shippersedge.com
   # Uncomment the following line if you don't have a custom domain and add your repo name
   #baseUrl: /upptime
   logoUrl: https://app.shippersedge.com/images/logos/shippersedge-logo.png
