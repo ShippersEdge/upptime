@@ -137,6 +137,9 @@ All three read the API key from the `UPTIMEROBOT_API_KEY` repository secret (Set
 
 Don't commit key values to this repo or paste them into chat/tickets — export locally or store as a GitHub Actions secret only.
 
+## Uptime API Docs (v3)
+- [UptimeRobot - API Documentation](https://uptimerobot.com/api/v3/)
+
 ## 📄 License
 
 - Historical Upptime data (`history/`, `api/`): [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)
