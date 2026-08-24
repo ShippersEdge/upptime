@@ -1,0 +1,35 @@
+name: UptimeRobot Set Custom Domain
+
+# Manually triggered. Sets (or clears) the custom domain on the ShippersEdge
+# public status page. Does not touch DNS — see README for the required
+# CNAME record.
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: "Custom domain to set (e.g. status.shippersedge.com). Leave blank to clear the current custom domain."
+        required: false
+        type: string
+
+jobs:
+  set-domain:
+    name: Set custom domain
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Set custom domain
+        run: |
+          if [ -n "${{ inputs.domain }}" ]; then
+            node scripts/uptimerobot-set-domain.mjs "${{ inputs.domain }}"
+          else
+            node scripts/uptimerobot-set-domain.mjs --clear
+          fi
+        env:
+          UPTIMEROBOT_API_KEY: ${{ secrets.UPTIMEROBOT_API_KEY }}
