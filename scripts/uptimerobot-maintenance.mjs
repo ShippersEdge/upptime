@@ -48,6 +48,18 @@
  * or the raw numbers UptimeRobot uses (monday=1 .. sunday=7). Only used for
  * --interval weekly/monthly. --date is still required even for a recurring
  * window — it's the start date the recurrence begins from.
+ *
+ *   # Update an existing recurring window instead of creating a new one —
+ *   # matches by (partial, case-insensitive) current name, then PATCHes it.
+ *   # Useful for adding another day to a standing weekly exclusion:
+ *   node scripts/uptimerobot-maintenance.mjs \
+ *     --update "Weekly Friday maintenance" \
+ *     --name "Weekly Friday & Monday maintenance" \
+ *     --interval weekly \
+ *     --days friday,monday \
+ *     --time 02:00:00 \
+ *     --duration 10 \
+ *     --monitors all
  */
 
 const API_BASE = "https://api.uptimerobot.com/v3";
@@ -97,6 +109,19 @@ async function api(path, { method = "GET", body } = {}) {
   return json;
 }
 
+async function findMaintenanceWindow(nameSubstring) {
+  const wanted = nameSubstring.trim().toLowerCase();
+  let cursor;
+  do {
+    const qs = cursor ? `?cursor=${cursor}` : "";
+    const page = await api(`/maintenance-windows${qs}`);
+    const match = page?.data?.find((w) => w.name.toLowerCase().includes(wanted));
+    if (match) return match;
+    cursor = page?.pagination?.nextCursor;
+  } while (cursor);
+  throw new Error(`No maintenance window found matching "${nameSubstring}".`);
+}
+
 async function resolveMonitorIds(namesArg) {
   if (!namesArg || namesArg.toLowerCase() === "all") return { autoAddMonitors: true, monitorIds: [] };
 
@@ -121,14 +146,23 @@ async function main() {
     process.exit(1);
   }
 
-  const { name, date, time, duration, monitors, interval = "once", days: daysArg } = parseArgs(process.argv.slice(2));
+  const {
+    name,
+    date,
+    time,
+    duration,
+    monitors,
+    interval = "once",
+    days: daysArg,
+    update: updateMatch,
+  } = parseArgs(process.argv.slice(2));
   const requiredKeys = interval === "once" ? ["name", "date", "time", "duration"] : ["name", "time", "duration"];
   const values = { name, date, time, duration };
   const missing = requiredKeys.filter((k) => !values[k]);
   if (missing.length) {
     console.error(`Missing required args: ${missing.join(", ")}`);
     console.error(
-      'Usage: --name "..." --date YYYY-MM-DD --time HH:mm:ss --duration <minutes> --monitors "all|Name1,Name2" [--interval once|weekly|monthly] [--days friday,...]'
+      'Usage: --name "..." --date YYYY-MM-DD --time HH:mm:ss --duration <minutes> --monitors "all|Name1,Name2" [--interval once|weekly|monthly] [--days friday,...] [--update "existing name"]'
     );
     process.exit(1);
   }
@@ -147,21 +181,29 @@ async function main() {
 
   const { autoAddMonitors, monitorIds } = await resolveMonitorIds(monitors);
 
-  const window = await api("/maintenance-windows", {
-    method: "POST",
-    body: {
-      name,
-      interval,
-      time,
-      duration: Number(duration),
-      autoAddMonitors,
-      ...(interval === "once" ? { date } : {}),
-      ...(days ? { days } : {}),
-      ...(autoAddMonitors ? {} : { monitorIds }),
-    },
-  });
+  const body = {
+    name,
+    interval,
+    time,
+    duration: Number(duration),
+    autoAddMonitors,
+    ...(interval === "once" ? { date } : {}),
+    ...(days ? { days } : {}),
+    ...(autoAddMonitors ? {} : { monitorIds }),
+  };
 
-  console.log(`Created maintenance window id ${window.id}: "${name}"`);
+  let window;
+  let verb;
+  if (updateMatch) {
+    const existing = await findMaintenanceWindow(updateMatch);
+    window = await api(`/maintenance-windows/${existing.id}`, { method: "PATCH", body });
+    verb = "Updated";
+  } else {
+    window = await api("/maintenance-windows", { method: "POST", body });
+    verb = "Created";
+  }
+
+  console.log(`${verb} maintenance window id ${window.id}: "${name}"`);
   console.log(
     `  ${interval}${days ? ` (days: ${days.join(", ")})` : ""}${interval === "once" ? ` on ${date}` : ""} at ${time}, ${duration} minutes`
   );
