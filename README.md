@@ -81,6 +81,7 @@ Flags:
 | `--duration` | Length in minutes |
 | `--days` | Required for `weekly`/`monthly`. Day name(s), comma-separated (e.g. `friday` or `tuesday,thursday`), or raw numbers (Monday=1..Sunday=7) |
 | `--monitors` | `all` to include every monitor, or a comma-separated list of (partial, case-insensitive) monitor names |
+| `--update` | Optional. (Partial, case-insensitive) name of an **existing** window — PATCHes that window instead of creating a new one. Useful for adding another day to a standing weekly exclusion without ending up with duplicate windows. |
 
 **Timezone:** `--time` (and `--date` for one-off windows) is interpreted using the UptimeRobot account's Timezone setting (Dashboard → My Settings → Timezone), currently **Central Time (US & Canada)**. That's GMT-5 during daylight time (CDT, roughly March–November) and GMT-6 during standard time (CST). Always pass your actual local wall-clock time — don't manually convert to a fixed offset, since the account setting already accounts for DST.
 
@@ -90,7 +91,7 @@ A `once` window covers a single event — run the script again for each new main
 
 | Name | Schedule | Duration |
 | --- | --- | --- |
-| Weekly Friday maintenance | Every Friday, 2:00 AM Central | 10 minutes |
+| Weekly Friday & Monday maintenance | Every Monday and Friday, 2:00 AM Central | 10 minutes |
 
 ### `scripts/uptimerobot-set-domain.mjs`
 
@@ -138,6 +139,7 @@ All three read the API key from the `UPTIMEROBOT_API_KEY` repository secret (Set
 Don't commit key values to this repo or paste them into chat/tickets — export locally or store as a GitHub Actions secret only.
 
 ## Uptime API Docs (v3)
+
 - [UptimeRobot - API Documentation](https://uptimerobot.com/api/v3/)
 
 ## 📄 License

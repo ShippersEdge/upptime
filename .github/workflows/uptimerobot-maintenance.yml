@@ -41,10 +41,14 @@ on:
         required: true
         default: all
         type: string
+      update:
+        description: "Optional: (partial) name of an EXISTING window to update instead of creating a new one, e.g. 'Weekly Friday maintenance'"
+        required: false
+        type: string
 
 jobs:
   create-window:
-    name: Create maintenance window
+    name: Create/update maintenance window
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -55,7 +59,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Create maintenance window
+      - name: Create or update maintenance window
         run: |
           ARGS=(--name "${{ inputs.name }}" --interval "${{ inputs.interval }}" --time "${{ inputs.time }}" --duration "${{ inputs.duration }}" --monitors "${{ inputs.monitors }}")
           if [ -n "${{ inputs.date }}" ]; then
@@ -63,6 +67,9 @@ jobs:
           fi
           if [ -n "${{ inputs.days }}" ]; then
             ARGS+=(--days "${{ inputs.days }}")
+          fi
+          if [ -n "${{ inputs.update }}" ]; then
+            ARGS+=(--update "${{ inputs.update }}")
           fi
           node scripts/uptimerobot-maintenance.mjs "${ARGS[@]}"
         env:
